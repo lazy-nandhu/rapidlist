@@ -1,12 +1,11 @@
 [package]
-name = "todo_list"
-version = "0.1.0"
+name = "rapidlist"
+version = "0.0.1"
 edition = "2024"
 
 [dependencies]
 chrono = "0.4.42"
 clap = { version = "4.5.53", features = ["derive"] }
-colored = "3.0.0"
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.145"
 tabled = "0.20.0"
